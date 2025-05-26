@@ -16,12 +16,11 @@ SQLとPythonを使って、集計・可視化・相関分析まで一貫して�
 ## ファイル構成
 
 spotify-portfolio/
-├── spotify_data.csv # 元データ
-├── graph_top10.py # Top10再生数グラフコード
-├── correlation_analysis.py # 相関分析コード
-├── Top10_bar_chart.png # 横棒グラフ
-├── Correlation_scatter.png # 散布図（相関分析）
-└── README.md # この説明
+├─ spotify_data.csv             # 元データ
+├─ graph_top10.py               # 再生数が多いアーティストTOP10棒グラフのコード
+├─ Top10_bar_chart.png          # 再生数が多いアーティストTOP10グラフ画像
+├─ correlation_analysis.py      # チャートイン曲数と相殺整数の相関分析のコード
+├─ Correlation_scatter.png      # 上記相関分析のグラフ画像
 
 
 
