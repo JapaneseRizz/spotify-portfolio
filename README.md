@@ -1,19 +1,19 @@
 
- Spotify チャートデータ分析ポートフォリオ
+## Spotify チャートデータ分析ポートフォリオ
 
-## 📌 プロジェクト概要
+## プロジェクト概要
 
 Spotifyのチャートデータをもとに、アーティストの再生数やチャートイン傾向を分析。  
 SQLとPythonを使って、集計・可視化・相関分析まで一貫して行いました。
 
-## 🛠️ 使用技術
+## 使用技術
 
 - SQL（MySQL構文）
 - Python（pandas, matplotlib）
 - Jupyter / VSCode
 - GitHub
 
-## 📂 ファイル構成
+## ファイル構成
 
 spotify-portfolio/
 ├── spotify_data.csv # 元データ
@@ -23,11 +23,9 @@ spotify-portfolio/
 ├── Correlation_scatter.png # 散布図（相関分析）
 └── README.md # この説明
 
-pgsql
-コピーする
-編集する
 
-## 📊 分析①：アーティスト別総再生数TOP10
+
+## 分析①：アーティスト別総再生数TOP10
 
 ### 使用SQL
 ```sql
