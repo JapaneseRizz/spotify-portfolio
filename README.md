@@ -13,20 +13,22 @@ SQLとPythonを使って、集計・可視化・相関分析まで一貫して�
 - Jupyter / VSCode
 - GitHub
 
-## ファイル構成
+##  ファイル構成
 
-spotify-portfolio/
-├─ spotify_data.csv             # 元データ
-├─ graph_top10.py               # 再生数が多いアーティストTOP10棒グラフのコード
-├─ Top10_bar_chart.png          # 再生数が多いアーティストTOP10グラフ画像
-├─ correlation_analysis.py      # チャートイン曲数と相殺整数の相関分析のコード
-├─ Correlation_scatter.png      # 上記相関分析のグラフ画像
+| ファイル名                 | 説明                                               |
+|---------------------------|----------------------------------------------------|
+| `spotify_data.csv`        | 元データ                                           |
+| `graph_top10.py`          | 再生数が多いアーティストTOP10のグラフ作成コード   |
+| `Top10_bar_chart.png`     | 上記グラフ画像                                     |
+| `correlation_analysis.py` | 曲数と再生数の相関を分析するためのコード           |
+| `Correlation_scatter.png` | 上記相関分析のグラフ画像                           |
+| `README.md`               | この説明ファイル                                   |
 
 
 
 ## 分析①：アーティスト別総再生数TOP10
 
-### 使用SQL
+## 使用SQL
 ```sql
 SELECT artist_names, SUM(streams) AS total_streams
 FROM spotify_chart
